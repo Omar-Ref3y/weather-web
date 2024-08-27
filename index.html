@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="rain.svg">
+</head>
+<body>
+    <header><img src="palestine.svg"><h1>We Stand with palestine</h1><img src="palestine.svg"></header>
+    <div class="cart">
+        <div class="search">
+            <input type="text" placeholder="enter city name" spellcheck="false" class="search-box">
+            <button><img src="search.svg"></button>
+        </div>
+        <div class="weather">
+            <img src="night cloud.svg" class="weather-img">
+            <h1 class="temp">
+                29°c
+            </h1>
+            <h2 class="city">Sohag</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="humidity.svg" class="humidity-icon">
+                    <div>
+                        <p class="humidity">44%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="wind.svg" class="wind-icon">
+                    <div>
+                        <p class="wind">18 km/h</p>
+                        <p>wind</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="rainper.svg" class="rain-icon">
+                    <div>
+                        <p class="rain">0%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="error">
+        <h1>you enter invalid City name</h1>
+        <button><span>OK</span></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
